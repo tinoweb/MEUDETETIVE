@@ -1,0 +1,288 @@
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .services .card-title,
+  .advantages .card-title,
+  .testimonials .blockquote,
+  .faq .card-header {
+    color: #0056b3;
+  }
+  
+  .footer {
+    font-size: 0.9em;
+  }
+
+/* ------------------------------- */
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    max-height: 40px; /* Ajuste a altura do logo conforme necessário */
+  }
+  
+  .nav-item.nav-link {
+    color: #007bff; /* Cor azul padrão do Bootstrap */
+    margin-right: 10px; /* Espaçamento entre os itens */
+  }
+  
+  .nav-item.nav-link:hover {
+    color: #0056b3; /* Cor azul um pouco mais escura ao passar o mouse */
+  }
+  
+  .nav-item.nav-link.btn {
+    background-color: #0056b3; /* Cor de fundo do botão */
+    border-color: #0056b3; /* Cor da borda do botão */
+  }
+  
+  .nav-item.nav-link.btn:hover {
+    background-color: #004299; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #004299; /* Cor da borda do botão ao passar o mouse */
+  }
+
+  
+  /* -------------------------priemeira sessao da pagina----------------------- */
+  .hero-section {
+    background-color: #ff8c00; /* Ajuste para a cor laranja desejada */
+    color: #ffffff; /* Texto branco para alto contraste */
+  }
+
+  .imgenSEc {
+    border-radius: 10px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem; /* Tamanho grande do título */
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem; /* Tamanho confortável para a leitura */
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #0056b3; /* Cor azul padrão do botão */
+    border: none; /* Sem borda para o botão */
+  }
+  
+  .hero-section .btn-primary:hover {
+    background-color: #004299; /* Escurecer o botão ao passar o mouse */
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section .col-md-6 {
+      text-align: left;
+    }
+    .hero-section img {
+      max-width: 100%; /* Faz a imagem ocupar o espaço disponível */
+      height: auto; /* Mantém a proporção da imagem */
+    }
+  }
+
+  /* ------------------------------como funciona---------------------------- */
+
+  .how-it-works-section {
+    background-color: #f8f9fa; /* Cor de fundo da seção */
+  }
+  
+  .how-it-works-section .info-card img {
+    width: 50px; /* Ajuste a largura dos ícones conforme necessário */
+  }
+  
+  .how-it-works-section h3 {
+    color: #007bff; /* Cor do título principal */
+  }
+  
+  .how-it-works-section p {
+    color: #6c757d; /* Cor do texto */
+  }
+  
+  .how-it-works-section .step {
+    background-color: #ffffff; /* Cor de fundo para os passos */
+    border: 1px solid #dee2e6; /* Borda para os passos */
+    padding: 10px;
+    margin-bottom: 10px; /* Espaço entre os passos */
+  }
+  
+  .how-it-works-section .btn-primary {
+    background-color: #0056b3; /* Cor de fundo do botão */
+    border-color: #004299; /* Cor da borda do botão */
+  }
+  
+  .how-it-works-section .btn-primary:hover {
+    background-color: #004299; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #003580; /* Cor da borda do botão ao passar o mouse */
+  }
+
+
+  /* ---------------------nossos servicos-------------------- */
+  
+  .service-card {
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff; /* Fundo branco para o cartão */
+  }
+  
+  .service-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .service-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #007bff; /* Cor do título */
+  }
+  
+  .service-card .text-secondary {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #6c757d; /* Cor do texto secundário */
+  }
+  
+  .service-price .old-price {
+    font-size: 0.85rem;
+    text-decoration: line-through;
+    color: #dc3545; /* Cor para o preço antigo */
+    margin-right: 0.5rem;
+  }
+  
+  .service-price .new-price {
+    font-size: 1.5rem;
+    color: #28a745; /* Verde para o novo preço */
+  }
+  
+  .service-features li {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    padding-left: 1.5rem;
+    color: #6c757d; /* Cor dos itens da lista */
+  }
+  
+  .service-features li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    color: #28a745; /* Verde para o ícone de check */
+  }
+  
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    color: #ffffff; /* Cor do texto do botão */
+  }
+  
+  .btn-primary:hover {
+    background-color: #004299;
+  }
+  
+  .service-disclaimer {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #6c757d;
+    margin-top: 1rem;
+  }
+
+  /* -------------------------------- pub para contratar ------------------------------- */
+
+  .consultas-header {
+    background: #f8f9fa;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title-shadow {
+    font-size: 3rem;
+    color: #007bff;
+    text-shadow: 2px 2px 4px #aaa;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .consultas-header h1 {
+    font-size: 2rem;
+    color: #212529;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .offer {
+    font-size: 1.25rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+
+  /* ----------------------------------- vantagens -------------------- */
+
+  .card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body img {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 15px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #007bff; /* Cor azul para o título */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    color: #6c757d; /* Cor cinza para o texto */
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #004299;
+    border-color: #003580;
+  }
+
+  .icon-size {
+    font-size: 3rem; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 15px;
+    color: #007bff; /* Ou qualquer cor que você deseje para o ícone */
+  }
+
+
+  /* adicionais */
+
+  .fas.fa-mobile-alt,
+.fas.fa-search,
+.fas.fa-lock {
+  color: #17a2b8; /* Cor personalizada para ícones */
+  font-size: 3rem; /* Tamanho dos ícones */
+  margin-bottom: 15px;
+}
+  
+  
+  
+  
